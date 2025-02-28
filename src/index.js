@@ -25,6 +25,9 @@ root.render(
           <Route path="/about" element={<About/>}/>
         </Routes>
       </BrowserRouter>
+      <div className="footer">
+        <p>Road to Code is an independent project made by Jacob Kolster, and powered by React.<br></br></p>
+      </div>
     </Body>
   </React.StrictMode>
 );
